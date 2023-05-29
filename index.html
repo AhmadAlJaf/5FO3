@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5FO3 FM - Class Celebration Station</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to 5FO3 FM!</h1>
+        <h2>Your Class Celebration Station</h2>
+        <iframe id="player" src="https://zeno.fm/player/5fo3-fm" frameborder="0" scrolling="no"></iframe>
+        <a href="https://www.snapchat.com/add/ahmadaljaf?share_id=R4WAk4KXS2o&locale=en-GB" target="_blank">Made by Ahmad Al Jaf</a>
+        <p>Can't see the player? Stream directly <a href="http://stream.zeno.fm/le822bgik1nuv" target="_blank">here</a></p>
+        <p>Also, don't forget to check out my main station, <a href="https://jaf.ahmadaljaf.repl.co" target="_blank">JAF FM</a>!</p>
+        <button id="startGameButton">Start the Game</button>
+        <div id="game" style="display: none;">
+            <p>Guess a number between 1 and 10.</p>
+            <input id="guess" type="number" min="1" max="10">
+            <button id="submitGuess">Guess!</button>
+            <p id="gameMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
